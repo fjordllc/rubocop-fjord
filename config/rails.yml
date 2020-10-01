@@ -1,0 +1,17 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  Exclude:
+    - '**/templates/**/*'
+    - '**/vendor/**/*'
+    - 'app/views/**/*'
+    - 'config/**/*'
+    - 'node_modules/**/*'
+    - 'db/schema.rb'
+    - 'storage/**/*'
+    - 'tmp/**/*'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*.rb'
