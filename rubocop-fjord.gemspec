@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['komagata@gmail.com']
 
   spec.summary       = 'rubocop rules for fjord, Inc.'
-  spec.homepage      = 'https://github.com/fjordllc/bootcamp'
+  spec.homepage      = 'https://github.com/fjordllc/rubocop-fjord'
   spec.license       = 'MIT'
 
   spec.required_ruby_version = '>= 2.4.0'
