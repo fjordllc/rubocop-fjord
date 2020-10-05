@@ -1,6 +1,9 @@
 require:
   - rubocop-performance
 
+AllCops:
+  NewCops: disable
+
 Performance:
   Exclude:
     - '**/test/**/*'
@@ -14,11 +17,11 @@ Style/Documentation:
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Style/MethodLength:
+Metrics/MethodLength:
   CountComments: false
   Max: 20
 
-Style/CyclomaticComplexity:
+Metrics/CyclomaticComplexity:
   Enabled: false
 
 Metrics/AbcSize:
