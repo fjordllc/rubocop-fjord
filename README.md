@@ -12,6 +12,15 @@ group :development do
 end
 ```
 
+If you want to use in your Rails application:
+
+```ruby
+group :development do
+  gem 'rubocop-fjord', require: false
+  gem 'rubocop-rails'
+end
+```
+
 And then execute:
 
     $ bundle
