@@ -17,6 +17,9 @@ Style/Documentation:
 Style/ClassAndModuleChildren:
   Enabled: false
 
+Style/AsciiComments:
+  Enabled: false
+
 Metrics/MethodLength:
   CountComments: false
   Max: 20
