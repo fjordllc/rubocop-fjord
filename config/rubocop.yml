@@ -20,6 +20,9 @@ Style/ClassAndModuleChildren:
 Style/AsciiComments:
   Enabled: false
 
+Style/IfUnlessModifier:
+  Enabled: false
+
 Metrics/MethodLength:
   CountComments: false
   Max: 20
