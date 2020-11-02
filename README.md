@@ -9,15 +9,7 @@ Add this line to your application's Gemfile:
 ```ruby
 group :development do
   gem 'rubocop-fjord', require: false
-end
-```
-
-If you want to use in your Rails application:
-
-```ruby
-group :development do
-  gem 'rubocop-fjord', require: false
-  gem 'rubocop-rails'
+  # gem 'rubocop-rails'
 end
 ```
 
