@@ -1,6 +1,6 @@
 # rubocop-fjord
 
-rubocop-fjord is a rubocop configuration fro Fjord, Inc.
+rubocop-fjord is a rubocop configuration from Fjord, Inc.
 
 ## Installation
 
