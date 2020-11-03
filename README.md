@@ -1,6 +1,6 @@
 # rubocop-fjord
 
-rubocop-fjord is a rubocop configuration fro Fjord, Inc.
+rubocop-fjord is a rubocop configuration from Fjord, Inc.
 
 ## Installation
 
@@ -9,6 +9,7 @@ Add this line to your application's Gemfile:
 ```ruby
 group :development do
   gem 'rubocop-fjord', require: false
+  # gem 'rubocop-rails'
 end
 ```
 
