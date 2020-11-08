@@ -11,6 +11,7 @@ AllCops:
     - 'db/schema.rb'
     - 'storage/**/*'
     - 'tmp/**/*'
+    - 'bin/**/*'
 
 Metrics/MethodLength:
   Exclude:
