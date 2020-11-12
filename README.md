@@ -23,13 +23,23 @@ Or install it yourself as:
 
 ## Usage
 
-Add `inherit_gem:` setting to your `.rubocop.yml`
+Add `inherit_gem:` setting to your `.rubocop.yml`:
 
 ```yml
 inherit_gem:
   rubocop-fjord:
     - "config/rubocop.yml"
     # - "config/rails.yml"
+```
+
+Run `rubocop` command:
+
+```
+# with Bundler
+$ bundle exec rubocop
+
+# without Bundler
+$ rubocop
 ```
 
 ## Development
