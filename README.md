@@ -7,9 +7,17 @@ rubocop-fjord is a rubocop configuration from Fjord, Inc.
 Add this line to your application's Gemfile:
 
 ```ruby
+# For plain Ruby scripts
 group :development do
   gem 'rubocop-fjord', require: false
-  # gem 'rubocop-rails'
+end
+```
+
+```ruby
+# For Rails projects
+group :development do
+  gem 'rubocop-fjord', require: false
+  gem 'rubocop-rails', require: false
 end
 ```
 
@@ -26,19 +34,23 @@ Or install it yourself as:
 Add `inherit_gem:` setting to your `.rubocop.yml`:
 
 ```yml
+# For plain Ruby scripts
 inherit_gem:
   rubocop-fjord:
     - "config/rubocop.yml"
-    # - "config/rails.yml"
+```
+
+```yml
+# For Rails projects
+inherit_gem:
+  rubocop-fjord:
+    - "config/rubocop.yml"
+    - "config/rails.yml"
 ```
 
 Run `rubocop` command:
 
 ```
-# with Bundler
-$ bundle exec rubocop
-
-# without Bundler
 $ rubocop
 ```
 
