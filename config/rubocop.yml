@@ -2,6 +2,7 @@ require:
   - rubocop-performance
 
 AllCops:
+  TargetRubyVersion: 2.6
   NewCops: disable
 
 Performance:
