@@ -30,3 +30,11 @@ Metrics/CyclomaticComplexity:
 
 Metrics/AbcSize:
   Enabled: false
+
+Metrics/ClassLength:
+  Exclude:
+    - test/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
