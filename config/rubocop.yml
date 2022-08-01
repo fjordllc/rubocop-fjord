@@ -24,6 +24,8 @@ Style/AsciiComments:
 Metrics/MethodLength:
   CountComments: false
   Max: 20
+  Exclude:
+    - test/**/*
 
 Metrics/CyclomaticComplexity:
   Enabled: false
@@ -32,10 +34,6 @@ Metrics/AbcSize:
   Enabled: false
 
 Metrics/ClassLength:
-  Exclude:
-    - test/**/*
-
-Metrics/MethodLength:
   Exclude:
     - test/**/*
 
