@@ -40,3 +40,6 @@ Metrics/ClassLength:
 Metrics/BlockLength:
   Exclude:
     - spec/**/*
+
+Lint/UnusedMethodArgument:
+  AutoCorrect: false
