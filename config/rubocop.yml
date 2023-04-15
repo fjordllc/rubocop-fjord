@@ -44,3 +44,6 @@ Metrics/BlockLength:
 
 Lint/UnusedMethodArgument:
   AutoCorrect: false
+
+Style/NegatedIf:
+  Enabled: false
