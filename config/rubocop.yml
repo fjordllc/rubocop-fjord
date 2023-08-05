@@ -4,6 +4,7 @@ require:
 AllCops:
   TargetRubyVersion: 3.1
   NewCops: disable
+  SuggestExtensions: false
 
 Performance:
   Exclude:
