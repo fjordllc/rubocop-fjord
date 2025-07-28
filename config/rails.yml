@@ -10,7 +10,7 @@ AllCops:
     - 'config.ru'
     - 'node_modules/**/*'
     - 'db/migrate/*'
-    - 'db/schema.rb'
+    - 'db/*schema.rb'
     - 'storage/**/*'
     - 'tmp/**/*'
     - 'bin/**/*'
